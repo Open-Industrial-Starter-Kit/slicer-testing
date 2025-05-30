@@ -1,0 +1,4 @@
+class Constants:
+    INITIAL_COMMANDS = "G0 G17 G40 G54 G94\n\nG21\nG90\n"
+    GRBL_END_PROGRAM = 'M2'
+    GRBL_COOLANT_OFF = 'M9'
